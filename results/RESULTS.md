@@ -130,18 +130,22 @@ serial dependence structure measured by Î^2 relative to the native index
 used by the paper. Since the identical pipeline reproduces Perficient's
 result (a non-proxied instrument) almost exactly, this divergence is
 attributed to the proxy substitution rather than to the implementation.
-BTC/USD is lower than the paper (1.5% vs. 4.2%) but of the same small order
-of magnitude; the paper does not specify which venue its BTC/USD series comes
-from, and Massive's own aggregation of BTC/USD may differ from the paper's
-source.
+BTC/USD is lower than the paper (1.5% vs. 4.2%, a 64% relative difference)
+but of the same small order of magnitude and the same low-information
+direction (far below the always-rejected regime of CAC 40 or Perficient at
+95%); the paper does not specify which venue its BTC/USD series comes from,
+and Massive's own aggregation of BTC/USD may differ from the paper's source.
+This hypothesis was not checked against an alternative BTC/USD source, so the
+cause of the gap is not identified.
 
 **Verdict:** Russell 2000 — reproduced. Perficient — reproduced at 95%,
-partially reproduced at 99% (10.7% vs. 15.2%, same order, outside 10%).
-BTC/USD — partially reproduced (same low-information direction, same order of
-magnitude, exact percentage not matched). CAC 40 — not reproduced at the
-index level; attributed to the ETF-proxy substitution documented above
-(identified cause, corroborated by the accurate Perficient reproduction using
-the same code path).
+partially reproduced at 99% (10.7% vs. 15.2%, same order, outside 10% but
+within 50%). BTC/USD — not reproduced at 95% by the 50% relative-difference
+criterion (1.5% vs. 4.2%), though its direction (small, non-zero, far from
+the always-rejected regime) is qualitatively right; the cause of the gap was
+not identified. CAC 40 — not reproduced at the index level; attributed to the
+ETF-proxy substitution documented above (identified cause, corroborated by
+the accurate Perficient reproduction using the same code path).
 
 ## Experiment 4 — Numerical evaluation of the Theorem 2 error bound
 
@@ -235,6 +239,9 @@ Nothing is omitted for compute-time or scope reasons: all five selected
 experiments were executed in full at the parameters the paper specifies
 (1,000 trajectories in Experiments 1-2, the full n-grids of Experiments 2 and
 5, the full 2021 sample and all four assets in Experiment 3, and the full q
-and n_j grids of Experiment 4). The only incomplete numeric comparison is the
-CAC 40 series in Experiment 3, which is reported above as "not reproduced"
-with its identified cause (ETF-proxy substitution), not omitted.
+and n_j grids of Experiment 4). Two numeric comparisons in Experiment 3 are
+reported above as "not reproduced" rather than omitted: CAC 40, with its
+identified cause (ETF-proxy substitution), and BTC/USD at the 95% level,
+where the rejection rate is qualitatively in the right range but the
+precise cause of the 64% relative gap to the paper's figure was not
+identified.
