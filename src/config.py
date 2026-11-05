@@ -43,6 +43,7 @@ EXP3_START_DATE = "2020-01-01"  # history needed before 2021 to fill the first r
 EXP3_END_DATE = "2021-12-31"  # sample period is the year 2021, Sec. 4
 EXP3_DISPLAY_START = "2021-05-31"  # "end May 2021" for the three slower-trading series, Sec. 4
 EXP3_DISPLAY_END = "2021-12-31"  # "end December 2021", Sec. 4
+EXP3_BTC_DISPLAY_START = "2021-04-11"  # BTC/USD starts earlier because it trades every day, Sec. 4
 # Tickers: CAC 40 and Russell 2000 are index levels. The Dataloader/Massive route serves
 # equities and ETFs, not raw index levels without an index entitlement; the closest
 # investable proxies are used instead (see "Deviations from the paper" in results/RESULTS.md).

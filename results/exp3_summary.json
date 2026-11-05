@@ -1,0 +1,61 @@
+{
+  "L": 1,
+  "n_window": 100,
+  "critical_values": {
+    "0.95": 0.0432192809488736,
+    "0.99": 0.06643856189774722,
+    "0.999": 0.09965784284662087
+  },
+  "non_massive_source": {},
+  "failed_tickers": {},
+  "assets": {
+    "CAC40": {
+      "ticker": "EWQ",
+      "n_dates_total_rolling": 404,
+      "n_dates_display": 150,
+      "display_start": "2021-06-01",
+      "display_end": "2021-12-31",
+      "rejection_rate": {
+        "0.95": 0.09333333333333334,
+        "0.99": 0.0,
+        "0.999": 0.0
+      }
+    },
+    "RUSSELL2000": {
+      "ticker": "IWM",
+      "n_dates_total_rolling": 404,
+      "n_dates_display": 150,
+      "display_start": "2021-06-01",
+      "display_end": "2021-12-31",
+      "rejection_rate": {
+        "0.95": 0.0,
+        "0.99": 0.0,
+        "0.999": 0.0
+      }
+    },
+    "PERFICIENT": {
+      "ticker": "PRFT",
+      "n_dates_total_rolling": 404,
+      "n_dates_display": 150,
+      "display_start": "2021-06-01",
+      "display_end": "2021-12-31",
+      "rejection_rate": {
+        "0.95": 0.5866666666666667,
+        "0.99": 0.10666666666666667,
+        "0.999": 0.0
+      }
+    },
+    "BTCUSD": {
+      "ticker": "X:BTCUSD",
+      "n_dates_total_rolling": 630,
+      "n_dates_display": 264,
+      "display_start": "2021-04-11",
+      "display_end": "2021-12-30",
+      "rejection_rate": {
+        "0.95": 0.015151515151515152,
+        "0.99": 0.0,
+        "0.999": 0.0
+      }
+    }
+  }
+}

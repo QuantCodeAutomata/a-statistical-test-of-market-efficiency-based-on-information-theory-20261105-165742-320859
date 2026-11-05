@@ -4,8 +4,8 @@ set -uo pipefail
 
 python -m pytest -m "not market_data"
 
-python -m exp.exp1
-python -m exp.exp2
-python -m exp.exp4
-python -m exp.exp5
-python -m exp.exp3
+python -m exp.exp_1
+python -m exp.exp_2
+python -m exp.exp_4
+python -m exp.exp_5
+python -m exp.exp_3

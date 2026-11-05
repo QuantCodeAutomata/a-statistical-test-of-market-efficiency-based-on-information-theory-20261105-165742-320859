@@ -39,11 +39,11 @@ python -m pytest                        # also runs the market-data smoke test
 ## Experiments
 
 ```bash
-python -m exp.exp1   # Figures 2-3: simulated distribution of Î^{L+1} vs. the gamma law
-python -m exp.exp2   # Figure 4: Kolmogorov-Smirnov statistic vs. sample size n
-python -m exp.exp3   # Figure 6: rolling-window test on CAC 40, Russell 2000, Perficient, BTC/USD
-python -m exp.exp4   # Figure 1: Theorem 2 error-bound comparison across q
-python -m exp.exp5   # Figure 5: critical-value chart of the market-efficiency test
+python -m exp.exp_1   # Figures 2-3: simulated distribution of Î^{L+1} vs. the gamma law
+python -m exp.exp_2   # Figure 4: Kolmogorov-Smirnov statistic vs. sample size n
+python -m exp.exp_3   # Figure 6: rolling-window test on CAC 40, Russell 2000, Perficient, BTC/USD
+python -m exp.exp_4   # Figure 1: Theorem 2 error-bound comparison across q
+python -m exp.exp_5   # Figure 5: critical-value chart of the market-efficiency test
 ```
 
 `reproduce.sh` runs the test suite and every experiment in this order.

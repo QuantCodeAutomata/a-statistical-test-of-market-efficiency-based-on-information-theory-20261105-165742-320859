@@ -1,0 +1,30 @@
+{
+  "L1_n100": {
+    "L": 1,
+    "n": 100,
+    "n_trajectories": 1000,
+    "gamma_shape_k": 1.0,
+    "gamma_scale_theta": 0.014426950408889633,
+    "theoretical_mean": 0.014426950408889633,
+    "theoretical_var": 0.00020813689810056076,
+    "empirical_mean": 0.015043031563306506,
+    "empirical_var": 0.00021334225472952685,
+    "ks_statistic": 0.06209299967912224,
+    "ks_pvalue": 0.0008551117335040275,
+    "plot": "results/exp1_L1_n100_hist_cdf.png"
+  },
+  "L2_n4000": {
+    "L": 2,
+    "n": 4000,
+    "n_trajectories": 1000,
+    "gamma_shape_k": 2.0,
+    "gamma_scale_theta": 0.0003606737602222409,
+    "theoretical_mean": 0.0007213475204444818,
+    "theoretical_var": 2.6017112262570104e-07,
+    "empirical_mean": 0.0007214239571307454,
+    "empirical_var": 2.765542271580236e-07,
+    "ks_statistic": 0.023524207698517985,
+    "ks_pvalue": 0.6286852857455819,
+    "plot": "results/exp1_L2_n4000_hist_cdf.png"
+  }
+}
