@@ -4,7 +4,7 @@ Guide for coding agents and contributors working on this repository.
 
 ## What this repository implements
 
-A replication of selected experiments from *A statistical test of market
+A replication of five experiments from *A statistical test of market
 efficiency based on information theory* (arXiv:2208.11976): a market-efficiency
 test built from the Shannon-entropy-based "market information" estimator
 Î^{L+1} of a binary up/down price representation, and its asymptotic gamma

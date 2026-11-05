@@ -1,6 +1,6 @@
 # A statistical test of market efficiency based on information theory
 
-Replication of selected experiments from *A statistical test of market
+Replication of five experiments from *A statistical test of market
 efficiency based on information theory* (arXiv:2208.11976).
 
 The paper represents a price series as a sequence of binary up/down
